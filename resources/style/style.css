@@ -54,6 +54,16 @@ body .home-page img {
      object-fit: cover;
   z-index: -1;
 }
+@media (max-width: 670px) {
+  body .home-page img {
+    min-height: 100%;
+  }
+}
+@media (max-height: 436px) {
+  body .home-page img {
+    height: auto;
+  }
+}
 body .home-page nav {
   display: flex;
   background-color: #001C30;

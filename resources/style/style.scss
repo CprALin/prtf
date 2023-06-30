@@ -66,6 +66,22 @@ body
             object-fit: cover;
             z-index: -1;
         }
+        
+        @media(max-width:670px)
+        {
+            img 
+            {
+                min-height: 100%;
+            }
+        }
+
+        @media(max-height:436px)
+        {
+            img 
+            {
+                height: auto;
+            }
+        }
 
         nav
         {
