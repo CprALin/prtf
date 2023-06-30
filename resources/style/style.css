@@ -39,7 +39,7 @@ body .loader::after {
 }
 body .home-page {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 28, 48, 0.7), rgba(0, 28, 48, 0.7)), url(/resources/img/newBack.jpg);
+  background-image: linear-gradient(rgba(0, 28, 48, 0.7), rgba(0, 28, 48, 0.7)), url("https://github.com/CprALin/Portfolio/blob/main/resources/img/newBack.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
