@@ -51,38 +51,11 @@ body
     .home-page
     {
         height: 100vh;
-        background-image: linear-gradient(rgba(0, 28, 48, 0.7), rgba(0, 28, 48, 0.7));
+        background-image: linear-gradient(rgba(0, 28, 48, 0.7), rgba(0, 28, 48, 0.7)), url('../img/newBack.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         
-        img 
-        {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -1;
-        }
-        
-        @media(max-width:670px)
-        {
-            img 
-            {
-                min-height: 100%;
-            }
-        }
-
-        @media(max-height:436px)
-        {
-            img 
-            {
-                height: auto;
-            }
-        }
-
         nav
         {
            display: flex; 
